@@ -1,0 +1,8 @@
+cmake_minimum_required( VERSION 3.22 )
+project( practice_eigen )
+
+# HEADER FILE /////////////////////////////////////////////////////////////////
+include_directories( "/usr/include/eigen3" )
+
+# EXECUTABLE //////////////////////////////////////////////////////////////////
+add_executable( eigen_basics eigen_basics.cpp )

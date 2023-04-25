@@ -1,0 +1,8 @@
+cmake_minimum_required( VERSION 3.22 )
+project( examples )
+
+# HEADER FILE /////////////////////////////////////////////////////////////////
+include_directories( "/usr/include/eigen3" )
+
+# EXECUTABLE //////////////////////////////////////////////////////////////////
+add_executable( transform_bots transform_bots.cpp )

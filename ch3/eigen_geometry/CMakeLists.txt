@@ -1,0 +1,8 @@
+cmake_minimum_required( VERSION 3.22 )
+project( eigen_geometry )
+
+# HEADER FILE /////////////////////////////////////////////////////////////////
+include_directories( "/usr/include/eigen3" )
+
+# EXECUTABLE //////////////////////////////////////////////////////////////////
+add_executable( eigen_geometry eigen_geometry.cpp )
