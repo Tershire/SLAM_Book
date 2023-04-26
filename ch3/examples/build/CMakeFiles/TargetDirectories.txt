@@ -1,3 +1,4 @@
 /home/tershire/SLAM_book/ch3/examples/build/CMakeFiles/transform_bots.dir
+/home/tershire/SLAM_book/ch3/examples/build/CMakeFiles/plot_trajectory.dir
 /home/tershire/SLAM_book/ch3/examples/build/CMakeFiles/edit_cache.dir
 /home/tershire/SLAM_book/ch3/examples/build/CMakeFiles/rebuild_cache.dir

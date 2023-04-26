@@ -447,3 +447,51 @@ Parsed CXX implicit link information from above output:
   implicit fwks: []
 
 
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/tershire/SLAM_book/ch3/examples/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d3356/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d3356.dir/build.make CMakeFiles/cmTC_d3356.dir/build
+gmake[1]: Entering directory '/home/tershire/SLAM_book/ch3/examples/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d3356.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_d3356.dir/CheckIncludeFile.c.o -c /home/tershire/SLAM_book/ch3/examples/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_d3356
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d3356.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_d3356.dir/CheckIncludeFile.c.o -o cmTC_d3356 
+gmake[1]: Leaving directory '/home/tershire/SLAM_book/ch3/examples/build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /home/tershire/SLAM_book/ch3/examples/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_fb8a4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_fb8a4.dir/build.make CMakeFiles/cmTC_fb8a4.dir/build
+gmake[1]: Entering directory '/home/tershire/SLAM_book/ch3/examples/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fb8a4.dir/src.c.o
+/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_fb8a4.dir/src.c.o -c /home/tershire/SLAM_book/ch3/examples/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_fb8a4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fb8a4.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_fb8a4.dir/src.c.o -o cmTC_fb8a4 
+gmake[1]: Leaving directory '/home/tershire/SLAM_book/ch3/examples/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+

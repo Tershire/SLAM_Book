@@ -129,6 +129,43 @@ transform_bots/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/transform_bots.dir/build.make CMakeFiles/transform_bots.dir/build
 .PHONY : transform_bots/fast
 
+#=============================================================================
+# Target rules for targets named plot_trajectory
+
+# Build rule for target.
+plot_trajectory: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plot_trajectory
+.PHONY : plot_trajectory
+
+# fast build rule for target.
+plot_trajectory/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plot_trajectory.dir/build.make CMakeFiles/plot_trajectory.dir/build
+.PHONY : plot_trajectory/fast
+
+plot_trajectory.o: plot_trajectory.cpp.o
+.PHONY : plot_trajectory.o
+
+# target to build an object file
+plot_trajectory.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plot_trajectory.dir/build.make CMakeFiles/plot_trajectory.dir/plot_trajectory.cpp.o
+.PHONY : plot_trajectory.cpp.o
+
+plot_trajectory.i: plot_trajectory.cpp.i
+.PHONY : plot_trajectory.i
+
+# target to preprocess a source file
+plot_trajectory.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plot_trajectory.dir/build.make CMakeFiles/plot_trajectory.dir/plot_trajectory.cpp.i
+.PHONY : plot_trajectory.cpp.i
+
+plot_trajectory.s: plot_trajectory.cpp.s
+.PHONY : plot_trajectory.s
+
+# target to generate assembly for a file
+plot_trajectory.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plot_trajectory.dir/build.make CMakeFiles/plot_trajectory.dir/plot_trajectory.cpp.s
+.PHONY : plot_trajectory.cpp.s
+
 transform_bots.o: transform_bots.cpp.o
 .PHONY : transform_bots.o
 
@@ -161,7 +198,11 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... plot_trajectory"
 	@echo "... transform_bots"
+	@echo "... plot_trajectory.o"
+	@echo "... plot_trajectory.i"
+	@echo "... plot_trajectory.s"
 	@echo "... transform_bots.o"
 	@echo "... transform_bots.i"
 	@echo "... transform_bots.s"
