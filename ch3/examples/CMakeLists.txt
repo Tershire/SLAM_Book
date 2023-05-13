@@ -3,6 +3,7 @@ project(examples)
 
 # HEADER FILE /////////////////////////////////////////////////////////////////
 include_directories("/usr/include/eigen3")
+include_directories(${Pangolin_INCLUDE_DIRS})
 
 # PACKAGE /////////////////////////////////////////////////////////////////////
 # set(Pangolin_DIR "/home/tershire/SLAM_book/ext_libs/Pangolin")

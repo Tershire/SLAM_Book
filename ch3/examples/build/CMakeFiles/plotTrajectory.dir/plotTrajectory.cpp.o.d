@@ -1,5 +1,5 @@
-CMakeFiles/plot_trajectory.dir/plot_trajectory.cpp.o: \
- /home/tershire/Documents/SLAM_book/ch3/examples/plot_trajectory.cpp \
+CMakeFiles/plotTrajectory.dir/plotTrajectory.cpp.o: \
+ /home/tershire/Documents/SLAM_book/ch3/examples/plotTrajectory.cpp \
  /usr/include/stdc-predef.h \
  /home/tershire/Documents/SLAM_book/ext_libs/Pangolin/components/pango_core/include/pangolin/pangolin.h \
  /home/tershire/Documents/SLAM_book/ext_libs/Pangolin/components/pango_core/include/pangolin/platform.h \

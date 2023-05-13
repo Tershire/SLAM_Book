@@ -3,11 +3,11 @@
 // Tershire
 
 // HEADER FILE ////////////////////////////////////////////////////////////////
-#include <iostream>
-#include <fstream>
+// #include <iostream>
+// #include <fstream>
 #include <pangolin/pangolin.h>
 #include <Eigen/Core>
-#include <Eigen/Geometry>
+// #include <Eigen/Geometry>
 #include <unistd.h>
 
 using namespace std;
@@ -41,6 +41,7 @@ int main(int argc, char **argv)
         double time, tx, ty, tz, qx, qy, qz, qw;
         fin >> time >> tx >> ty >> tz >> qx >> qy >> qz >> qw;
         Isometry3d T_wb(Quaterniond(qw, qx, qy, qz));
+        T_wb.pretranslate(Vector3d(tx, ty, tz));
         poses.push_back(T_wb);
     }
     cout << "read total " << poses.size() << " pose entries" << endl;
@@ -55,7 +56,7 @@ void draw_trajectory(vector<Isometry3d,
                      Eigen::aligned_allocator<Isometry3d>> poses)
 {
     // create pangolin window and plot the trajectory
-    pangolin::CreateWindowAndBind("Trajectory Viewer", 1025, 768);
+    pangolin::CreateWindowAndBind("Trajectory Viewer", 1024, 768);
     glEnable(GL_DEPTH_TEST);
     glEnable(GL_BLEND);
     glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
