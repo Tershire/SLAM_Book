@@ -1,5 +1,5 @@
 CMakeFiles/hello_SLAM_using_lib.dir/hello_SLAM_using_lib.cpp.o: \
- /home/tershire/SLAM_book/ch2/hello_SLAM_using_lib.cpp \
+ /home/tershire/Documents/SLAM_book/ch2/hello_SLAM_using_lib.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -146,4 +146,4 @@ CMakeFiles/hello_SLAM_using_lib.dir/hello_SLAM_using_lib.cpp.o: \
  /usr/include/c++/11/bits/basic_ios.tcc \
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
  /usr/include/c++/11/bits/istream.tcc \
- /home/tershire/SLAM_book/ch2/lib_hello_SLAM.h
+ /home/tershire/Documents/SLAM_book/ch2/lib_hello_SLAM.h

@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/hello_SLAM_using_lib.dir/hello_SLAM_using_lib.cpp.o -o hello_SLAM_using_lib  -Wl,-rpath,/home/tershire/SLAM_book/ch2/build libhello_shared.so 
+/usr/bin/c++ CMakeFiles/hello_SLAM_using_lib.dir/hello_SLAM_using_lib.cpp.o -o hello_SLAM_using_lib  -Wl,-rpath,/home/tershire/Documents/SLAM_book/ch2/build libhello_shared.so 
