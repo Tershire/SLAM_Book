@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tershire/SLAM_book/ch3/examples
+CMAKE_SOURCE_DIR = /home/tershire/Documents/SLAM_book/ch3/examples
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tershire/SLAM_book/ch3/examples/build
+CMAKE_BINARY_DIR = /home/tershire/Documents/SLAM_book/ch3/examples/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -83,14 +83,14 @@ clean: CMakeFiles/plot_trajectory.dir/clean
 CMakeFiles/transform_bots.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/transform_bots.dir/build.make CMakeFiles/transform_bots.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/transform_bots.dir/build.make CMakeFiles/transform_bots.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tershire/SLAM_book/ch3/examples/build/CMakeFiles --progress-num=3,4 "Built target transform_bots"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tershire/Documents/SLAM_book/ch3/examples/build/CMakeFiles --progress-num=3,4 "Built target transform_bots"
 .PHONY : CMakeFiles/transform_bots.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/transform_bots.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tershire/SLAM_book/ch3/examples/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tershire/Documents/SLAM_book/ch3/examples/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/transform_bots.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tershire/SLAM_book/ch3/examples/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tershire/Documents/SLAM_book/ch3/examples/build/CMakeFiles 0
 .PHONY : CMakeFiles/transform_bots.dir/rule
 
 # Convenience name for target.
@@ -109,14 +109,14 @@ CMakeFiles/transform_bots.dir/clean:
 CMakeFiles/plot_trajectory.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/plot_trajectory.dir/build.make CMakeFiles/plot_trajectory.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/plot_trajectory.dir/build.make CMakeFiles/plot_trajectory.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tershire/SLAM_book/ch3/examples/build/CMakeFiles --progress-num=1,2 "Built target plot_trajectory"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tershire/Documents/SLAM_book/ch3/examples/build/CMakeFiles --progress-num=1,2 "Built target plot_trajectory"
 .PHONY : CMakeFiles/plot_trajectory.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/plot_trajectory.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tershire/SLAM_book/ch3/examples/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tershire/Documents/SLAM_book/ch3/examples/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/plot_trajectory.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tershire/SLAM_book/ch3/examples/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tershire/Documents/SLAM_book/ch3/examples/build/CMakeFiles 0
 .PHONY : CMakeFiles/plot_trajectory.dir/rule
 
 # Convenience name for target.

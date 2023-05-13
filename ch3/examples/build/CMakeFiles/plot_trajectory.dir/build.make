@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tershire/SLAM_book/ch3/examples
+CMAKE_SOURCE_DIR = /home/tershire/Documents/SLAM_book/ch3/examples
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tershire/SLAM_book/ch3/examples/build
+CMAKE_BINARY_DIR = /home/tershire/Documents/SLAM_book/ch3/examples/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/plot_trajectory.dir/depend.make
@@ -72,16 +72,16 @@ include CMakeFiles/plot_trajectory.dir/flags.make
 CMakeFiles/plot_trajectory.dir/plot_trajectory.cpp.o: CMakeFiles/plot_trajectory.dir/flags.make
 CMakeFiles/plot_trajectory.dir/plot_trajectory.cpp.o: ../plot_trajectory.cpp
 CMakeFiles/plot_trajectory.dir/plot_trajectory.cpp.o: CMakeFiles/plot_trajectory.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tershire/SLAM_book/ch3/examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/plot_trajectory.dir/plot_trajectory.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/plot_trajectory.dir/plot_trajectory.cpp.o -MF CMakeFiles/plot_trajectory.dir/plot_trajectory.cpp.o.d -o CMakeFiles/plot_trajectory.dir/plot_trajectory.cpp.o -c /home/tershire/SLAM_book/ch3/examples/plot_trajectory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tershire/Documents/SLAM_book/ch3/examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/plot_trajectory.dir/plot_trajectory.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/plot_trajectory.dir/plot_trajectory.cpp.o -MF CMakeFiles/plot_trajectory.dir/plot_trajectory.cpp.o.d -o CMakeFiles/plot_trajectory.dir/plot_trajectory.cpp.o -c /home/tershire/Documents/SLAM_book/ch3/examples/plot_trajectory.cpp
 
 CMakeFiles/plot_trajectory.dir/plot_trajectory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/plot_trajectory.dir/plot_trajectory.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tershire/SLAM_book/ch3/examples/plot_trajectory.cpp > CMakeFiles/plot_trajectory.dir/plot_trajectory.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tershire/Documents/SLAM_book/ch3/examples/plot_trajectory.cpp > CMakeFiles/plot_trajectory.dir/plot_trajectory.cpp.i
 
 CMakeFiles/plot_trajectory.dir/plot_trajectory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/plot_trajectory.dir/plot_trajectory.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tershire/SLAM_book/ch3/examples/plot_trajectory.cpp -o CMakeFiles/plot_trajectory.dir/plot_trajectory.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tershire/Documents/SLAM_book/ch3/examples/plot_trajectory.cpp -o CMakeFiles/plot_trajectory.dir/plot_trajectory.cpp.s
 
 # Object files for target plot_trajectory
 plot_trajectory_OBJECTS = \
@@ -92,27 +92,27 @@ plot_trajectory_EXTERNAL_OBJECTS =
 
 plot_trajectory: CMakeFiles/plot_trajectory.dir/plot_trajectory.cpp.o
 plot_trajectory: CMakeFiles/plot_trajectory.dir/build.make
-plot_trajectory: /home/tershire/SLAM_book/ext_libs/Pangolin/build/libpango_glgeometry.so
-plot_trajectory: /home/tershire/SLAM_book/ext_libs/Pangolin/build/libpango_plot.so
-plot_trajectory: /home/tershire/SLAM_book/ext_libs/Pangolin/build/libpango_python.so
-plot_trajectory: /home/tershire/SLAM_book/ext_libs/Pangolin/build/libpango_scene.so
-plot_trajectory: /home/tershire/SLAM_book/ext_libs/Pangolin/build/libpango_tools.so
-plot_trajectory: /home/tershire/SLAM_book/ext_libs/Pangolin/build/libpango_video.so
-plot_trajectory: /home/tershire/SLAM_book/ext_libs/Pangolin/build/libpango_geometry.so
-plot_trajectory: /home/tershire/SLAM_book/ext_libs/Pangolin/build/libtinyobj.so
-plot_trajectory: /home/tershire/SLAM_book/ext_libs/Pangolin/build/libpango_display.so
-plot_trajectory: /home/tershire/SLAM_book/ext_libs/Pangolin/build/libpango_vars.so
-plot_trajectory: /home/tershire/SLAM_book/ext_libs/Pangolin/build/libpango_windowing.so
-plot_trajectory: /home/tershire/SLAM_book/ext_libs/Pangolin/build/libpango_opengl.so
+plot_trajectory: /home/tershire/Documents/SLAM_book/ext_libs/Pangolin/build/libpango_glgeometry.so
+plot_trajectory: /home/tershire/Documents/SLAM_book/ext_libs/Pangolin/build/libpango_plot.so
+plot_trajectory: /home/tershire/Documents/SLAM_book/ext_libs/Pangolin/build/libpango_python.so
+plot_trajectory: /home/tershire/Documents/SLAM_book/ext_libs/Pangolin/build/libpango_scene.so
+plot_trajectory: /home/tershire/Documents/SLAM_book/ext_libs/Pangolin/build/libpango_tools.so
+plot_trajectory: /home/tershire/Documents/SLAM_book/ext_libs/Pangolin/build/libpango_video.so
+plot_trajectory: /home/tershire/Documents/SLAM_book/ext_libs/Pangolin/build/libpango_geometry.so
+plot_trajectory: /home/tershire/Documents/SLAM_book/ext_libs/Pangolin/build/libtinyobj.so
+plot_trajectory: /home/tershire/Documents/SLAM_book/ext_libs/Pangolin/build/libpango_display.so
+plot_trajectory: /home/tershire/Documents/SLAM_book/ext_libs/Pangolin/build/libpango_vars.so
+plot_trajectory: /home/tershire/Documents/SLAM_book/ext_libs/Pangolin/build/libpango_windowing.so
+plot_trajectory: /home/tershire/Documents/SLAM_book/ext_libs/Pangolin/build/libpango_opengl.so
 plot_trajectory: /usr/lib/x86_64-linux-gnu/libGLEW.so
 plot_trajectory: /usr/lib/x86_64-linux-gnu/libOpenGL.so
 plot_trajectory: /usr/lib/x86_64-linux-gnu/libGLX.so
 plot_trajectory: /usr/lib/x86_64-linux-gnu/libGLU.so
-plot_trajectory: /home/tershire/SLAM_book/ext_libs/Pangolin/build/libpango_image.so
-plot_trajectory: /home/tershire/SLAM_book/ext_libs/Pangolin/build/libpango_packetstream.so
-plot_trajectory: /home/tershire/SLAM_book/ext_libs/Pangolin/build/libpango_core.so
+plot_trajectory: /home/tershire/Documents/SLAM_book/ext_libs/Pangolin/build/libpango_image.so
+plot_trajectory: /home/tershire/Documents/SLAM_book/ext_libs/Pangolin/build/libpango_packetstream.so
+plot_trajectory: /home/tershire/Documents/SLAM_book/ext_libs/Pangolin/build/libpango_core.so
 plot_trajectory: CMakeFiles/plot_trajectory.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tershire/SLAM_book/ch3/examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable plot_trajectory"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tershire/Documents/SLAM_book/ch3/examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable plot_trajectory"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/plot_trajectory.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -124,6 +124,6 @@ CMakeFiles/plot_trajectory.dir/clean:
 .PHONY : CMakeFiles/plot_trajectory.dir/clean
 
 CMakeFiles/plot_trajectory.dir/depend:
-	cd /home/tershire/SLAM_book/ch3/examples/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tershire/SLAM_book/ch3/examples /home/tershire/SLAM_book/ch3/examples /home/tershire/SLAM_book/ch3/examples/build /home/tershire/SLAM_book/ch3/examples/build /home/tershire/SLAM_book/ch3/examples/build/CMakeFiles/plot_trajectory.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/tershire/Documents/SLAM_book/ch3/examples/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tershire/Documents/SLAM_book/ch3/examples /home/tershire/Documents/SLAM_book/ch3/examples /home/tershire/Documents/SLAM_book/ch3/examples/build /home/tershire/Documents/SLAM_book/ch3/examples/build /home/tershire/Documents/SLAM_book/ch3/examples/build/CMakeFiles/plot_trajectory.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/plot_trajectory.dir/depend
 

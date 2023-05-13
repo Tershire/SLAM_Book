@@ -1,5 +1,5 @@
 CMakeFiles/plot_trajectory.dir/plot_trajectory.cpp.o: \
- /home/tershire/SLAM_book/ch3/examples/plot_trajectory.cpp \
+ /home/tershire/Documents/SLAM_book/ch3/examples/plot_trajectory.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -150,21 +150,21 @@ CMakeFiles/plot_trajectory.dir/plot_trajectory.cpp.o: \
  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
  /usr/include/c++/11/bits/fstream.tcc \
- /home/tershire/SLAM_book/ext_libs/Pangolin/components/pango_core/include/pangolin/pangolin.h \
- /home/tershire/SLAM_book/ext_libs/Pangolin/components/pango_core/include/pangolin/platform.h \
- /home/tershire/SLAM_book/ext_libs/Pangolin/components/pango_core/include/pangolin/utils/assert.h \
- /home/tershire/SLAM_book/ext_libs/Pangolin/components/pango_core/include/pangolin/utils/format_string.h \
+ /home/tershire/Documents/SLAM_book/ext_libs/Pangolin/components/pango_core/include/pangolin/pangolin.h \
+ /home/tershire/Documents/SLAM_book/ext_libs/Pangolin/components/pango_core/include/pangolin/platform.h \
+ /home/tershire/Documents/SLAM_book/ext_libs/Pangolin/components/pango_core/include/pangolin/utils/assert.h \
+ /home/tershire/Documents/SLAM_book/ext_libs/Pangolin/components/pango_core/include/pangolin/utils/format_string.h \
  /usr/include/c++/11/sstream /usr/include/c++/11/bits/sstream.tcc \
- /home/tershire/SLAM_book/ext_libs/Pangolin/components/pango_core/include/pangolin/utils/log.h \
- /home/tershire/SLAM_book/ext_libs/Pangolin/components/pango_display/include/pangolin/display/display.h \
- /home/tershire/SLAM_book/ext_libs/Pangolin/components/pango_opengl/include/pangolin/gl/glinclude.h \
- /home/tershire/SLAM_book/ext_libs/Pangolin/components/pango_opengl/include/pangolin/gl/glplatform.h \
+ /home/tershire/Documents/SLAM_book/ext_libs/Pangolin/components/pango_core/include/pangolin/utils/log.h \
+ /home/tershire/Documents/SLAM_book/ext_libs/Pangolin/components/pango_display/include/pangolin/display/display.h \
+ /home/tershire/Documents/SLAM_book/ext_libs/Pangolin/components/pango_opengl/include/pangolin/gl/glinclude.h \
+ /home/tershire/Documents/SLAM_book/ext_libs/Pangolin/components/pango_opengl/include/pangolin/gl/glplatform.h \
  /usr/include/GL/glew.h /usr/include/c++/11/cstddef /usr/include/GL/glu.h \
  /usr/include/GL/gl.h \
- /home/tershire/SLAM_book/ext_libs/Pangolin/components/pango_opengl/include/pangolin/gl/glpangoglu.h \
- /home/tershire/SLAM_book/ext_libs/Pangolin/components/pango_opengl/include/pangolin/gl/viewport.h \
- /home/tershire/SLAM_book/ext_libs/Pangolin/components/pango_core/include/pangolin/utils/params.h \
- /home/tershire/SLAM_book/ext_libs/Pangolin/components/pango_core/include/pangolin/utils/type_convert.h \
+ /home/tershire/Documents/SLAM_book/ext_libs/Pangolin/components/pango_opengl/include/pangolin/gl/glpangoglu.h \
+ /home/tershire/Documents/SLAM_book/ext_libs/Pangolin/components/pango_opengl/include/pangolin/gl/viewport.h \
+ /home/tershire/Documents/SLAM_book/ext_libs/Pangolin/components/pango_core/include/pangolin/utils/params.h \
+ /home/tershire/Documents/SLAM_book/ext_libs/Pangolin/components/pango_core/include/pangolin/utils/type_convert.h \
  /usr/include/c++/11/functional /usr/include/c++/11/tuple \
  /usr/include/c++/11/utility /usr/include/c++/11/bits/stl_relops.h \
  /usr/include/c++/11/array /usr/include/c++/11/bits/uses_allocator.h \
@@ -186,11 +186,11 @@ CMakeFiles/plot_trajectory.dir/plot_trajectory.cpp.o: \
  /usr/include/c++/11/bits/stl_heap.h \
  /usr/include/c++/11/bits/stl_tempbuf.h \
  /usr/include/c++/11/bits/uniform_int_dist.h \
- /home/tershire/SLAM_book/ext_libs/Pangolin/components/pango_core/include/pangolin/compat/type_traits.h \
+ /home/tershire/Documents/SLAM_book/ext_libs/Pangolin/components/pango_core/include/pangolin/compat/type_traits.h \
  /usr/include/c++/11/algorithm \
  /usr/include/c++/11/pstl/glue_algorithm_defs.h \
  /usr/include/c++/11/pstl/execution_defs.h \
- /home/tershire/SLAM_book/ext_libs/Pangolin/components/pango_windowing/include/pangolin/windowing/window.h \
+ /home/tershire/Documents/SLAM_book/ext_libs/Pangolin/components/pango_windowing/include/pangolin/windowing/window.h \
  /usr/include/c++/11/memory \
  /usr/include/c++/11/bits/stl_raw_storage_iter.h \
  /usr/include/c++/11/bits/align.h /usr/include/c++/11/bit \
@@ -204,8 +204,8 @@ CMakeFiles/plot_trajectory.dir/plot_trajectory.cpp.o: \
  /usr/include/c++/11/bits/atomic_lockfree_defines.h \
  /usr/include/c++/11/backward/auto_ptr.h \
  /usr/include/c++/11/pstl/glue_memory_defs.h \
- /home/tershire/SLAM_book/ext_libs/Pangolin/components/pango_core/include/pangolin/utils/signal_slot.h \
- /home/tershire/SLAM_book/ext_libs/Pangolin/components/pango_core/include/sigslot/signal.hpp \
+ /home/tershire/Documents/SLAM_book/ext_libs/Pangolin/components/pango_core/include/pangolin/utils/signal_slot.h \
+ /home/tershire/Documents/SLAM_book/ext_libs/Pangolin/components/pango_core/include/sigslot/signal.hpp \
  /usr/include/c++/11/atomic /usr/include/c++/11/mutex \
  /usr/include/c++/11/chrono /usr/include/c++/11/ratio \
  /usr/include/c++/11/limits /usr/include/c++/11/ctime \
@@ -214,14 +214,14 @@ CMakeFiles/plot_trajectory.dir/plot_trajectory.cpp.o: \
  /usr/include/c++/11/bits/unique_lock.h /usr/include/c++/11/thread \
  /usr/include/c++/11/bits/std_thread.h \
  /usr/include/c++/11/bits/this_thread_sleep.h \
- /home/tershire/SLAM_book/ext_libs/Pangolin/components/pango_core/include/pangolin/utils/true_false_toggle.h \
- /home/tershire/SLAM_book/ext_libs/Pangolin/components/pango_core/include/pangolin/utils/uri.h \
- /home/tershire/SLAM_book/ext_libs/Pangolin/components/pango_windowing/include/pangolin/windowing/handler_bitsets.h \
- /home/tershire/SLAM_book/ext_libs/Pangolin/components/pango_core/include/pangolin/utils/bitmask.h \
- /home/tershire/SLAM_book/ext_libs/Pangolin/components/pango_windowing/include/pangolin/windowing/handler_enums.h \
- /home/tershire/SLAM_book/ext_libs/Pangolin/components/pango_display/include/pangolin/display/display.hpp \
- /home/tershire/SLAM_book/ext_libs/Pangolin/components/pango_display/include/pangolin/display/view.h \
- /home/tershire/SLAM_book/ext_libs/Pangolin/components/pango_display/include/pangolin/display/attach.h \
+ /home/tershire/Documents/SLAM_book/ext_libs/Pangolin/components/pango_core/include/pangolin/utils/true_false_toggle.h \
+ /home/tershire/Documents/SLAM_book/ext_libs/Pangolin/components/pango_core/include/pangolin/utils/uri.h \
+ /home/tershire/Documents/SLAM_book/ext_libs/Pangolin/components/pango_windowing/include/pangolin/windowing/handler_bitsets.h \
+ /home/tershire/Documents/SLAM_book/ext_libs/Pangolin/components/pango_core/include/pangolin/utils/bitmask.h \
+ /home/tershire/Documents/SLAM_book/ext_libs/Pangolin/components/pango_windowing/include/pangolin/windowing/handler_enums.h \
+ /home/tershire/Documents/SLAM_book/ext_libs/Pangolin/components/pango_display/include/pangolin/display/display.hpp \
+ /home/tershire/Documents/SLAM_book/ext_libs/Pangolin/components/pango_display/include/pangolin/display/view.h \
+ /home/tershire/Documents/SLAM_book/ext_libs/Pangolin/components/pango_display/include/pangolin/display/attach.h \
  /usr/include/c++/11/cmath /usr/include/math.h \
  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
@@ -244,25 +244,25 @@ CMakeFiles/plot_trajectory.dir/plot_trajectory.cpp.o: \
  /usr/include/c++/11/tr1/poly_hermite.tcc \
  /usr/include/c++/11/tr1/poly_laguerre.tcc \
  /usr/include/c++/11/tr1/riemann_zeta.tcc \
- /home/tershire/SLAM_book/ext_libs/Pangolin/components/pango_display/include/pangolin/display/widgets.h \
- /home/tershire/SLAM_book/ext_libs/Pangolin/components/pango_vars/include/pangolin/var/var.h \
+ /home/tershire/Documents/SLAM_book/ext_libs/Pangolin/components/pango_display/include/pangolin/display/widgets.h \
+ /home/tershire/Documents/SLAM_book/ext_libs/Pangolin/components/pango_vars/include/pangolin/var/var.h \
  /usr/include/string.h /usr/include/strings.h \
- /home/tershire/SLAM_book/ext_libs/Pangolin/components/pango_core/include/pangolin/utils/is_streamable.h \
- /home/tershire/SLAM_book/ext_libs/Pangolin/components/pango_vars/include/pangolin/var/varvalue.h \
- /home/tershire/SLAM_book/ext_libs/Pangolin/components/pango_vars/include/pangolin/var/varvaluet.h \
- /home/tershire/SLAM_book/ext_libs/Pangolin/components/pango_vars/include/pangolin/var/varvaluegeneric.h \
- /home/tershire/SLAM_book/ext_libs/Pangolin/components/pango_core/include/pangolin/utils/file_utils.h \
- /home/tershire/SLAM_book/ext_libs/Pangolin/components/pango_vars/include/pangolin/var/varwrapper.h \
- /home/tershire/SLAM_book/ext_libs/Pangolin/components/pango_vars/include/pangolin/var/varstate.h \
+ /home/tershire/Documents/SLAM_book/ext_libs/Pangolin/components/pango_core/include/pangolin/utils/is_streamable.h \
+ /home/tershire/Documents/SLAM_book/ext_libs/Pangolin/components/pango_vars/include/pangolin/var/varvalue.h \
+ /home/tershire/Documents/SLAM_book/ext_libs/Pangolin/components/pango_vars/include/pangolin/var/varvaluet.h \
+ /home/tershire/Documents/SLAM_book/ext_libs/Pangolin/components/pango_vars/include/pangolin/var/varvaluegeneric.h \
+ /home/tershire/Documents/SLAM_book/ext_libs/Pangolin/components/pango_core/include/pangolin/utils/file_utils.h \
+ /home/tershire/Documents/SLAM_book/ext_libs/Pangolin/components/pango_vars/include/pangolin/var/varwrapper.h \
+ /home/tershire/Documents/SLAM_book/ext_libs/Pangolin/components/pango_vars/include/pangolin/var/varstate.h \
  /usr/include/c++/11/map /usr/include/c++/11/bits/stl_tree.h \
  /usr/include/c++/11/bits/stl_map.h \
  /usr/include/c++/11/bits/stl_multimap.h /usr/include/c++/11/any \
  /usr/include/c++/11/cassert /usr/include/assert.h \
- /home/tershire/SLAM_book/ext_libs/Pangolin/components/pango_vars/include/pangolin/var/varinit.h \
+ /home/tershire/Documents/SLAM_book/ext_libs/Pangolin/components/pango_vars/include/pangolin/var/varinit.h \
  /usr/include/c++/11/cstring \
- /home/tershire/SLAM_book/ext_libs/Pangolin/components/pango_display/include/pangolin/handler/handler.h \
- /home/tershire/SLAM_book/ext_libs/Pangolin/components/pango_opengl/include/pangolin/gl/opengl_render_state.h \
- /home/tershire/SLAM_book/ext_libs/Pangolin/components/pango_core/include/pangolin/utils/simple_math.h \
+ /home/tershire/Documents/SLAM_book/ext_libs/Pangolin/components/pango_display/include/pangolin/handler/handler.h \
+ /home/tershire/Documents/SLAM_book/ext_libs/Pangolin/components/pango_opengl/include/pangolin/gl/opengl_render_state.h \
+ /home/tershire/Documents/SLAM_book/ext_libs/Pangolin/components/pango_core/include/pangolin/utils/simple_math.h \
  /usr/include/eigen3/Eigen/Core \
  /usr/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h \
  /usr/include/eigen3/Eigen/src/Core/util/Macros.h \
@@ -446,48 +446,48 @@ CMakeFiles/plot_trajectory.dir/plot_trajectory.cpp.o: \
  /usr/include/eigen3/Eigen/src/Geometry/AlignedBox.h \
  /usr/include/eigen3/Eigen/src/Geometry/Umeyama.h \
  /usr/include/eigen3/Eigen/src/Geometry/arch/Geometry_SIMD.h \
- /home/tershire/SLAM_book/ext_libs/Pangolin/components/pango_opengl/include/pangolin/gl/gl.h \
- /home/tershire/SLAM_book/ext_libs/Pangolin/components/pango_image/include/pangolin/image/image_io.h \
- /home/tershire/SLAM_book/ext_libs/Pangolin/components/pango_image/include/pangolin/image/typed_image.h \
- /home/tershire/SLAM_book/ext_libs/Pangolin/components/pango_image/include/pangolin/image/managed_image.h \
- /home/tershire/SLAM_book/ext_libs/Pangolin/components/pango_image/include/pangolin/image/image.h \
- /home/tershire/SLAM_book/ext_libs/Pangolin/components/pango_image/include/pangolin/image/memcpy.h \
- /home/tershire/SLAM_book/ext_libs/Pangolin/components/pango_image/include/pangolin/image/copy.h \
- /home/tershire/SLAM_book/ext_libs/Pangolin/components/pango_image/include/pangolin/image/pixel_format.h \
- /home/tershire/SLAM_book/ext_libs/Pangolin/components/pango_core/include/pangolin/utils/file_extension.h \
+ /home/tershire/Documents/SLAM_book/ext_libs/Pangolin/components/pango_opengl/include/pangolin/gl/gl.h \
+ /home/tershire/Documents/SLAM_book/ext_libs/Pangolin/components/pango_image/include/pangolin/image/image_io.h \
+ /home/tershire/Documents/SLAM_book/ext_libs/Pangolin/components/pango_image/include/pangolin/image/typed_image.h \
+ /home/tershire/Documents/SLAM_book/ext_libs/Pangolin/components/pango_image/include/pangolin/image/managed_image.h \
+ /home/tershire/Documents/SLAM_book/ext_libs/Pangolin/components/pango_image/include/pangolin/image/image.h \
+ /home/tershire/Documents/SLAM_book/ext_libs/Pangolin/components/pango_image/include/pangolin/image/memcpy.h \
+ /home/tershire/Documents/SLAM_book/ext_libs/Pangolin/components/pango_image/include/pangolin/image/copy.h \
+ /home/tershire/Documents/SLAM_book/ext_libs/Pangolin/components/pango_image/include/pangolin/image/pixel_format.h \
+ /home/tershire/Documents/SLAM_book/ext_libs/Pangolin/components/pango_core/include/pangolin/utils/file_extension.h \
  /usr/include/c++/11/math.h \
- /home/tershire/SLAM_book/ext_libs/Pangolin/components/pango_opengl/include/pangolin/gl/gl.hpp \
- /home/tershire/SLAM_book/ext_libs/Pangolin/components/pango_opengl/include/pangolin/gl/glpixformat.h \
- /home/tershire/SLAM_book/ext_libs/Pangolin/components/pango_opengl/include/pangolin/gl/glformattraits.h \
- /home/tershire/SLAM_book/ext_libs/Pangolin/components/pango_opengl/include/pangolin/gl/glfont.h \
- /home/tershire/SLAM_book/ext_libs/Pangolin/components/pango_opengl/include/pangolin/gl/gltext.h \
- /home/tershire/SLAM_book/ext_libs/Pangolin/components/pango_opengl/include/pangolin/gl/glchar.h \
+ /home/tershire/Documents/SLAM_book/ext_libs/Pangolin/components/pango_opengl/include/pangolin/gl/gl.hpp \
+ /home/tershire/Documents/SLAM_book/ext_libs/Pangolin/components/pango_opengl/include/pangolin/gl/glpixformat.h \
+ /home/tershire/Documents/SLAM_book/ext_libs/Pangolin/components/pango_opengl/include/pangolin/gl/glformattraits.h \
+ /home/tershire/Documents/SLAM_book/ext_libs/Pangolin/components/pango_opengl/include/pangolin/gl/glfont.h \
+ /home/tershire/Documents/SLAM_book/ext_libs/Pangolin/components/pango_opengl/include/pangolin/gl/gltext.h \
+ /home/tershire/Documents/SLAM_book/ext_libs/Pangolin/components/pango_opengl/include/pangolin/gl/glchar.h \
  /usr/include/c++/11/cstdarg \
- /home/tershire/SLAM_book/ext_libs/Pangolin/components/pango_opengl/include/pangolin/gl/colour.h \
- /home/tershire/SLAM_book/ext_libs/Pangolin/components/pango_opengl/include/pangolin/gl/gldraw.h \
- /home/tershire/SLAM_book/ext_libs/Pangolin/components/pango_opengl/include/pangolin/gl/glstate.h \
+ /home/tershire/Documents/SLAM_book/ext_libs/Pangolin/components/pango_opengl/include/pangolin/gl/colour.h \
+ /home/tershire/Documents/SLAM_book/ext_libs/Pangolin/components/pango_opengl/include/pangolin/gl/gldraw.h \
+ /home/tershire/Documents/SLAM_book/ext_libs/Pangolin/components/pango_opengl/include/pangolin/gl/glstate.h \
  /usr/include/c++/11/stack /usr/include/c++/11/deque \
  /usr/include/c++/11/bits/stl_deque.h /usr/include/c++/11/bits/deque.tcc \
  /usr/include/c++/11/bits/stl_stack.h \
- /home/tershire/SLAM_book/ext_libs/Pangolin/components/pango_opengl/include/pangolin/gl/glvbo.h \
- /home/tershire/SLAM_book/ext_libs/Pangolin/components/pango_plot/include/pangolin/plot/plotter.h \
- /home/tershire/SLAM_book/ext_libs/Pangolin/components/pango_opengl/include/pangolin/gl/glsl.h \
- /home/tershire/SLAM_book/ext_libs/Pangolin/components/pango_opengl/include/pangolin/gl/glsl.hpp \
- /home/tershire/SLAM_book/ext_libs/Pangolin/components/pango_core/include/pangolin/utils/range.h \
- /home/tershire/SLAM_book/ext_libs/Pangolin/components/pango_plot/include/pangolin/plot/datalog.h \
+ /home/tershire/Documents/SLAM_book/ext_libs/Pangolin/components/pango_opengl/include/pangolin/gl/glvbo.h \
+ /home/tershire/Documents/SLAM_book/ext_libs/Pangolin/components/pango_plot/include/pangolin/plot/plotter.h \
+ /home/tershire/Documents/SLAM_book/ext_libs/Pangolin/components/pango_opengl/include/pangolin/gl/glsl.h \
+ /home/tershire/Documents/SLAM_book/ext_libs/Pangolin/components/pango_opengl/include/pangolin/gl/glsl.hpp \
+ /home/tershire/Documents/SLAM_book/ext_libs/Pangolin/components/pango_core/include/pangolin/utils/range.h \
+ /home/tershire/Documents/SLAM_book/ext_libs/Pangolin/components/pango_plot/include/pangolin/plot/datalog.h \
  /usr/include/c++/11/set /usr/include/c++/11/bits/stl_set.h \
  /usr/include/c++/11/bits/stl_multiset.h \
- /home/tershire/SLAM_book/ext_libs/Pangolin/components/pango_vars/include/pangolin/var/varextra.h \
- /home/tershire/SLAM_book/ext_libs/Pangolin/components/pango_video/include/pangolin/video/video.h \
- /home/tershire/SLAM_book/ext_libs/Pangolin/components/pango_video/include/pangolin/video/video_exception.h \
- /home/tershire/SLAM_book/ext_libs/Pangolin/components/pango_video/include/pangolin/video/video_interface.h \
- /home/tershire/SLAM_book/ext_libs/Pangolin/components/pango_core/include/pangolin/utils/picojson.h \
+ /home/tershire/Documents/SLAM_book/ext_libs/Pangolin/components/pango_vars/include/pangolin/var/varextra.h \
+ /home/tershire/Documents/SLAM_book/ext_libs/Pangolin/components/pango_video/include/pangolin/video/video.h \
+ /home/tershire/Documents/SLAM_book/ext_libs/Pangolin/components/pango_video/include/pangolin/video/video_exception.h \
+ /home/tershire/Documents/SLAM_book/ext_libs/Pangolin/components/pango_video/include/pangolin/video/video_interface.h \
+ /home/tershire/Documents/SLAM_book/ext_libs/Pangolin/components/pango_core/include/pangolin/utils/picojson.h \
  /usr/include/c++/11/iterator /usr/include/c++/11/bits/stream_iterator.h \
  /usr/include/inttypes.h \
- /home/tershire/SLAM_book/ext_libs/Pangolin/components/pango_video/include/pangolin/video/stream_info.h \
- /home/tershire/SLAM_book/ext_libs/Pangolin/components/pango_video/include/pangolin/video/video_output_interface.h \
- /home/tershire/SLAM_book/ext_libs/Pangolin/components/pango_video/include/pangolin/video/video_input.h \
- /home/tershire/SLAM_book/ext_libs/Pangolin/components/pango_video/include/pangolin/video/video_output.h \
+ /home/tershire/Documents/SLAM_book/ext_libs/Pangolin/components/pango_video/include/pangolin/video/stream_info.h \
+ /home/tershire/Documents/SLAM_book/ext_libs/Pangolin/components/pango_video/include/pangolin/video/video_output_interface.h \
+ /home/tershire/Documents/SLAM_book/ext_libs/Pangolin/components/pango_video/include/pangolin/video/video_input.h \
+ /home/tershire/Documents/SLAM_book/ext_libs/Pangolin/components/pango_video/include/pangolin/video/video_output.h \
  /usr/include/unistd.h /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
  /usr/include/x86_64-linux-gnu/bits/environments.h \
  /usr/include/x86_64-linux-gnu/bits/confname.h \
