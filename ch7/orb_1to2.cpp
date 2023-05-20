@@ -92,6 +92,7 @@ int main(int argc, char **argv)
     printf("Min Distance: %f \n", min_distance);
 
     // remove bad matching
+    // in this case, when Hamming Distance is less than twice of min
     std::vector<DMatch> good_matches;
     for (int i = 0; i < descriptors_1.rows; i++)
     {
