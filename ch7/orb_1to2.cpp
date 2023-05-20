@@ -24,7 +24,7 @@ int main(int argc, char **argv)
         return 1;
     }    
 
-    // SETTING ================================================================
+    // Setting ================================================================
     // read images
     Mat img_1 = imread(argv[1], IMREAD_COLOR);
     Mat img_2 = imread(argv[2], IMREAD_COLOR);
@@ -66,12 +66,11 @@ int main(int argc, char **argv)
 
 
     // Feature Matching =======================================================
-    vector<DMatch> matches;
-
     // timer: ini -------------------------------------------------------------
     t_ini = chrono::steady_clock::now();
 
     // Hamming Distance -------------------------------------------------------
+    vector<DMatch> matches;
     matcher->match(descriptors_1, descriptors_2, matches);
 
     // timer: fin -------------------------------------------------------------
@@ -103,7 +102,7 @@ int main(int argc, char **argv)
     }
 
 
-    // draw output ============================================================
+    // Draw Output ============================================================
     Mat img_match;
     Mat img_good_match; 
     

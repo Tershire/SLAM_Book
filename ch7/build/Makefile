@@ -129,6 +129,19 @@ orb_1to2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/orb_1to2.dir/build.make CMakeFiles/orb_1to2.dir/build
 .PHONY : orb_1to2/fast
 
+#=============================================================================
+# Target rules for targets named orb_scratch
+
+# Build rule for target.
+orb_scratch: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 orb_scratch
+.PHONY : orb_scratch
+
+# fast build rule for target.
+orb_scratch/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/orb_scratch.dir/build.make CMakeFiles/orb_scratch.dir/build
+.PHONY : orb_scratch/fast
+
 orb_1to2.o: orb_1to2.cpp.o
 .PHONY : orb_1to2.o
 
@@ -153,6 +166,30 @@ orb_1to2.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/orb_1to2.dir/build.make CMakeFiles/orb_1to2.dir/orb_1to2.cpp.s
 .PHONY : orb_1to2.cpp.s
 
+orb_scratch.o: orb_scratch.cpp.o
+.PHONY : orb_scratch.o
+
+# target to build an object file
+orb_scratch.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/orb_scratch.dir/build.make CMakeFiles/orb_scratch.dir/orb_scratch.cpp.o
+.PHONY : orb_scratch.cpp.o
+
+orb_scratch.i: orb_scratch.cpp.i
+.PHONY : orb_scratch.i
+
+# target to preprocess a source file
+orb_scratch.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/orb_scratch.dir/build.make CMakeFiles/orb_scratch.dir/orb_scratch.cpp.i
+.PHONY : orb_scratch.cpp.i
+
+orb_scratch.s: orb_scratch.cpp.s
+.PHONY : orb_scratch.s
+
+# target to generate assembly for a file
+orb_scratch.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/orb_scratch.dir/build.make CMakeFiles/orb_scratch.dir/orb_scratch.cpp.s
+.PHONY : orb_scratch.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,9 +199,13 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... orb_1to2"
+	@echo "... orb_scratch"
 	@echo "... orb_1to2.o"
 	@echo "... orb_1to2.i"
 	@echo "... orb_1to2.s"
+	@echo "... orb_scratch.o"
+	@echo "... orb_scratch.i"
+	@echo "... orb_scratch.s"
 .PHONY : help
 
 
