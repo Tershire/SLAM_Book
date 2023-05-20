@@ -13,8 +13,10 @@
 using namespace std;
 
 // GLOBAL VARIABLE ////////////////////////////////////////////////////////////
-string file_1 = "Data/1.png";
-string file_2 = "Data/2.png";
+string file_1 = "Data/W1.jpg";
+string file_2 = "Data/W2.jpg";
+// string file_1 = "Data/1.png";
+// string file_2 = "Data/2.png";
 
 
 // TYPE DEFINITION ////////////////////////////////////////////////////////////
