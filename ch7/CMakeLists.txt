@@ -18,7 +18,9 @@ include_directories(
 )
 
 add_executable(orb_1to2 orb_1to2.cpp)
-target_link_libraries(orb_1to2 ${OpenCV_LIBS})
-
 add_executable(orb_scratch orb_scratch.cpp)
+add_executable(pose_estimation_2d2d pose_estimation_2d2d.cpp)
+
+target_link_libraries(orb_1to2 ${OpenCV_LIBS})
 target_link_libraries(orb_scratch ${OpenCV_LIBS})
+target_link_libraries(pose_estimation_2d2d ${OpenCV_LIBS})
