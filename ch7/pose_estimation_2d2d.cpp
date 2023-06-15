@@ -21,12 +21,14 @@ void find_feature_matches(const Mat& img_1, const Mat& img_2,
                           std::vector<KeyPoint>& keypoints_2,
                           std::vector<DMatch>& matches_);
 
-void pose_estimation_2d2d(std::vector<KeyPoint> keypoints_1,
-                          std::vector<KeyPoint> keypoints_2,
-                          std::vector<DMatch> matches,
+void pose_estimation_2d2d(std::vector<KeyPoint>& keypoints_1,
+                          std::vector<KeyPoint>& keypoints_2,
+                          std::vector<DMatch>& matches,
                           Mat& R, Mat& t);
 
+// pixel coordinates -> camera normalized coordinates
 Point2d pixel2cam(const Point2d& p, const Mat& K);
+
 
 // MAIN ///////////////////////////////////////////////////////////////////////
 int main(int argc, char **argv)
@@ -145,9 +147,9 @@ void find_feature_matches(const Mat& img_1, const Mat& img_2,
 
 
 // ============================================================================
-void pose_estimation_2d2d(std::vector<KeyPoint> keypoints_1,
-                          std::vector<KeyPoint> keypoints_2,
-                          std::vector<DMatch> matches,
+void pose_estimation_2d2d(std::vector<KeyPoint>& keypoints_1,
+                          std::vector<KeyPoint>& keypoints_2,
+                          std::vector<DMatch>& matches,
                           Mat& R, Mat& t)
 {
     // camera matrix, TUM Freiburg2
