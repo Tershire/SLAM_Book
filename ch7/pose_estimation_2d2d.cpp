@@ -11,7 +11,7 @@
 #include <opencv2/highgui/highgui.hpp>
 #include <opencv2/calib3d/calib3d.hpp>
 
-using namespace std;
+// using namespace std;
 using namespace cv;
 
 
@@ -36,7 +36,7 @@ int main(int argc, char **argv)
     // ?
     if (argc != 3)
     {
-        cout << "usage: feature extraction img1 img2\n";
+        std::cout << "usage: feature extraction img1 img2\n";
         return 1;
     }
 
@@ -49,12 +49,12 @@ int main(int argc, char **argv)
 
 
     // Find Feature Matches ===================================================
-    vector<KeyPoint> keypoints_1, keypoints_2;
-    vector<DMatch> matches;
+    std::vector<KeyPoint> keypoints_1, keypoints_2;
+    std::vector<DMatch> matches;
 
     find_feature_matches(img_1, img_2, keypoints_1, keypoints_2, matches);
 
-    cout << "Number of matches: " << matches.size() << endl;
+    std::cout << "Number of matches: " << matches.size() << std::endl;
 
 
     // Estimate Motion Between Two Images =====================================
@@ -69,7 +69,7 @@ int main(int argc, char **argv)
      t.at<double>(2, 0), 0, -t.at<double>(0, 0),
     -t.at<double>(1, 0), t.at<double>(0, 0), 0);
 
-    cout << "t ^ R = " << endl << t_x * R << endl;
+    std::cout << "t ^ R =\n" << t_x * R << std::endl;
 
     // validate: epipolar constraint
     Mat K = (Mat_<double>(3, 3) << 520.9, 0, 325.1, 0, 521.0, 249.7, 0, 0, 1);
@@ -84,7 +84,7 @@ int main(int argc, char **argv)
 
         Mat d = y2.t() * t_x * R * y1;
 
-        cout << "Epipolar constraint = " << d << endl;
+        std::cout << "Epipolar constraint = " << d << std::endl;
     }
 
     return 0;
@@ -118,7 +118,7 @@ void find_feature_matches(const Mat& img_1, const Mat& img_2,
 
 
     // Feature Matching =======================================================
-    vector<DMatch> matches;
+    std::vector<DMatch> matches;
     matcher->match(descriptors_1, descriptors_2, matches);
 
     // match point pair filtering
@@ -156,8 +156,8 @@ void pose_estimation_2d2d(std::vector<KeyPoint>& keypoints_1,
     Mat K = (Mat_<double>(3, 3) << 520.9, 0, 325.1, 0, 521.0, 249.7, 0, 0, 1);
 
     // convert tmatching point to vector<Point2f>
-    vector<Point2f> points_1;
-    vector<Point2f> points_2;
+    std::vector<Point2f> points_1;
+    std::vector<Point2f> points_2;
 
     for (int i = 0; i < (int) matches.size(); i++)
     {
@@ -169,7 +169,7 @@ void pose_estimation_2d2d(std::vector<KeyPoint>& keypoints_1,
     Mat fundamental_matrix;
     fundamental_matrix = findFundamentalMat(points_1, points_2, FM_8POINT);
 
-    cout << "fundamental_matrix:" << endl << fundamental_matrix << endl;
+    std::cout << "fundamental_matrix:\n" << fundamental_matrix << std::endl;
 
     // calculate essential matrix =============================================
     Point2d principal_point(325.1, 249.7); // camera optical center,
@@ -181,7 +181,7 @@ void pose_estimation_2d2d(std::vector<KeyPoint>& keypoints_1,
     essential_matrix = findEssentialMat(points_1, points_2, 
                                         focal_length, principal_point);
 
-    cout << "essential_matrix: " << endl << essential_matrix << endl;
+    std::cout << "essential_matrix:\n" << essential_matrix << std::endl;
 
     // calculate the homography matrix ========================================
     // <B> in this Ex., scene is not flat, so
@@ -189,13 +189,13 @@ void pose_estimation_2d2d(std::vector<KeyPoint>& keypoints_1,
     Mat homography_matrix;
     homography_matrix = findHomography(points_1, points_2, RANSAC, 3);
 
-    cout << "homography_matrix: " << endl << homography_matrix << endl;
+    std::cout << "homography_matrix:\n" << homography_matrix << std::endl;
 
     // recover rotation & translation from the essential matrix ===============
     recoverPose(essential_matrix, points_1, points_2, R, t, 
                 focal_length, principal_point);
-    cout << "R is " << endl << R << endl;
-    cout << "t is " << endl << t << endl;
+    std::cout << "R is\n" << R << std::endl;
+    std::cout << "t is\n" << t << std::endl;
 }
 
 

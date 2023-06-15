@@ -8,7 +8,7 @@
 #include <iostream>
 #include <opencv2/opencv.hpp>
 
-using namespace std;
+// using namespace std;
 using namespace cv;
 
 
@@ -18,19 +18,19 @@ void find_feature_matches(const Mat& img_1, const Mat& img_2,
                           std::vector<KeyPoint>& keypoints_2,
                           std::vector<DMatch>& matches_);
 
-void pose_estimation_2d2d(std::vector<KeyPoint> keypoints_1,
-                          std::vector<KeyPoint> keypoints_2,
-                          std::vector<DMatch> matches,
+void pose_estimation_2d2d(std::vector<KeyPoint> &keypoints_1,
+                          std::vector<KeyPoint> &keypoints_2,
+                          std::vector<DMatch> &matches,
                           Mat& R, Mat& t);
 
 // pixel coordinates -> camera normalized coordinates
 Point2d pixel2cam(const Point2d& p, const Mat& K);
 
-void triangulation(const vector<KeyPoint> &keypoint_1,
-                    const vector<KeyPoint> &keypoint_2,
-                    const std::vector<DMatch> &matches,
-                    const Mat &R, const Mat &t,
-                    vector<Point3d> &points);
+void triangulation(const std::vector<KeyPoint> &keypoint_1,
+                   const std::vector<KeyPoint> &keypoint_2,
+                   const std::vector<DMatch> &matches,
+                   const Mat& R, const Mat& t,
+                   std::vector<Point3d>& points);
 
 //
 inline cv::Scalar get_color(float depth)
