@@ -1,5 +1,6 @@
 /home/tershire/Documents/SLAM_Book/ch7/build/CMakeFiles/orb_1to2.dir
 /home/tershire/Documents/SLAM_Book/ch7/build/CMakeFiles/orb_scratch.dir
 /home/tershire/Documents/SLAM_Book/ch7/build/CMakeFiles/pose_estimation_2d2d.dir
+/home/tershire/Documents/SLAM_Book/ch7/build/CMakeFiles/triangulation.dir
 /home/tershire/Documents/SLAM_Book/ch7/build/CMakeFiles/edit_cache.dir
 /home/tershire/Documents/SLAM_Book/ch7/build/CMakeFiles/rebuild_cache.dir

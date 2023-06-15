@@ -59,4 +59,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/orb_1to2.dir/DependInfo.cmake"
   "CMakeFiles/orb_scratch.dir/DependInfo.cmake"
   "CMakeFiles/pose_estimation_2d2d.dir/DependInfo.cmake"
+  "CMakeFiles/triangulation.dir/DependInfo.cmake"
   )
