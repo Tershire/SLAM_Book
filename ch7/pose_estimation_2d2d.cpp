@@ -33,16 +33,14 @@ Point2d pixel2cam(const Point2d& p, const Mat& K);
 // MAIN ///////////////////////////////////////////////////////////////////////
 int main(int argc, char **argv)
 {
-    // ?
+    // user input check
     if (argc != 3)
     {
         std::cout << "usage: feature extraction img1 img2\n";
         return 1;
     }
 
-
-    // Setting ================================================================
-    // read images
+    // Load Image =============================================================
     Mat img_1 = imread(argv[1], IMREAD_COLOR);
     Mat img_2 = imread(argv[2], IMREAD_COLOR);
     assert(img_1.data != nullptr && img_2.data != nullptr);
