@@ -73,4 +73,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/pose_estimation_2d2d.dir/DependInfo.cmake"
   "CMakeFiles/triangulation.dir/DependInfo.cmake"
   "CMakeFiles/pose_estimation_3d2d.dir/DependInfo.cmake"
+  "CMakeFiles/pose_estimation_3d3d.dir/DependInfo.cmake"
   )

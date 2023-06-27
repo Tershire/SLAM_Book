@@ -68,6 +68,7 @@ all: CMakeFiles/orb_scratch.dir/all
 all: CMakeFiles/pose_estimation_2d2d.dir/all
 all: CMakeFiles/triangulation.dir/all
 all: CMakeFiles/pose_estimation_3d2d.dir/all
+all: CMakeFiles/pose_estimation_3d3d.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -80,6 +81,7 @@ clean: CMakeFiles/orb_scratch.dir/clean
 clean: CMakeFiles/pose_estimation_2d2d.dir/clean
 clean: CMakeFiles/triangulation.dir/clean
 clean: CMakeFiles/pose_estimation_3d2d.dir/clean
+clean: CMakeFiles/pose_estimation_3d3d.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -167,7 +169,7 @@ CMakeFiles/pose_estimation_2d2d.dir/clean:
 CMakeFiles/triangulation.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/triangulation.dir/build.make CMakeFiles/triangulation.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/triangulation.dir/build.make CMakeFiles/triangulation.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tershire/Documents/SLAM_Book/ch7/build/CMakeFiles --progress-num=9,10 "Built target triangulation"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tershire/Documents/SLAM_Book/ch7/build/CMakeFiles --progress-num=11,12 "Built target triangulation"
 .PHONY : CMakeFiles/triangulation.dir/all
 
 # Build rule for subdir invocation for target.
@@ -211,6 +213,32 @@ pose_estimation_3d2d: CMakeFiles/pose_estimation_3d2d.dir/rule
 CMakeFiles/pose_estimation_3d2d.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pose_estimation_3d2d.dir/build.make CMakeFiles/pose_estimation_3d2d.dir/clean
 .PHONY : CMakeFiles/pose_estimation_3d2d.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/pose_estimation_3d3d.dir
+
+# All Build rule for target.
+CMakeFiles/pose_estimation_3d3d.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pose_estimation_3d3d.dir/build.make CMakeFiles/pose_estimation_3d3d.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pose_estimation_3d3d.dir/build.make CMakeFiles/pose_estimation_3d3d.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tershire/Documents/SLAM_Book/ch7/build/CMakeFiles --progress-num=9,10 "Built target pose_estimation_3d3d"
+.PHONY : CMakeFiles/pose_estimation_3d3d.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/pose_estimation_3d3d.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tershire/Documents/SLAM_Book/ch7/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/pose_estimation_3d3d.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tershire/Documents/SLAM_Book/ch7/build/CMakeFiles 0
+.PHONY : CMakeFiles/pose_estimation_3d3d.dir/rule
+
+# Convenience name for target.
+pose_estimation_3d3d: CMakeFiles/pose_estimation_3d3d.dir/rule
+.PHONY : pose_estimation_3d3d
+
+# clean rule for target.
+CMakeFiles/pose_estimation_3d3d.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pose_estimation_3d3d.dir/build.make CMakeFiles/pose_estimation_3d3d.dir/clean
+.PHONY : CMakeFiles/pose_estimation_3d3d.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

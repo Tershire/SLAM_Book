@@ -2,6 +2,8 @@
 // 2023 JUN 08
 // Tershire
 
+// fix: g2o.make_unique() -> std.make_unique() (is this okay ?)
+
 // bash execute command: /ch7$ build/pose_estimation_3d2d data/1.png data/2.png
 //                             data/1_depth.png data/2_depth.png
 
@@ -210,7 +212,7 @@ class Vertex_Pose: public g2o::BaseVertex<6, Sophus::SE3d>
         }
 
         // left multiplication on SE3
-        virtual void oplusImpl(const double *update) override 
+        virtual void oplusImpl(const double* update) override 
         {
             Eigen::Matrix<double, 6, 1> update_eigen;
             update_eigen << update[0], update[1], update[2], 
@@ -306,7 +308,8 @@ void find_feature_matches(const Mat& img_1, const Mat& img_2,
 
     // find max and min distances
     double dist;
-    for (int i = 0; i < descriptors_1.rows; i++) {
+    for (int i = 0; i < descriptors_1.rows; i++)
+    {
         dist = matches[i].distance;
         if (dist < min_dist) min_dist = dist;
         if (dist > max_dist) max_dist = dist;
@@ -474,7 +477,6 @@ void bundle_adjustment_g2o(const VecVector3d& points_3d,
         edge->setVertex(0, vertex_pose);
         edge->setMeasurement(p2d);
         edge->setInformation(Eigen::Matrix2d::Identity());
-
         optimizer.addEdge(edge);
 
         index++;
@@ -484,10 +486,11 @@ void bundle_adjustment_g2o(const VecVector3d& points_3d,
     std::chrono::steady_clock::time_point t_ini = 
     std::chrono::steady_clock::now();
 
-    // ??? --------------------------------------------------------------------
+    // optimization ===========================================================
     optimizer.setVerbose(true);
     optimizer.initializeOptimization();
     optimizer.optimize(10);
+    // ========================================================================
 
     // timer: fin -------------------------------------------------------------
     std::chrono::steady_clock::time_point t_fin = 
@@ -501,7 +504,7 @@ void bundle_adjustment_g2o(const VecVector3d& points_3d,
     std::cout << "pose estimated by g2o =\n" 
               << vertex_pose->estimate().matrix() << std::endl;
     
-    //
+    // ?
     pose = vertex_pose->estimate();
 }
 

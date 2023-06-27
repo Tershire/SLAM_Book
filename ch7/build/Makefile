@@ -181,6 +181,19 @@ pose_estimation_3d2d/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pose_estimation_3d2d.dir/build.make CMakeFiles/pose_estimation_3d2d.dir/build
 .PHONY : pose_estimation_3d2d/fast
 
+#=============================================================================
+# Target rules for targets named pose_estimation_3d3d
+
+# Build rule for target.
+pose_estimation_3d3d: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pose_estimation_3d3d
+.PHONY : pose_estimation_3d3d
+
+# fast build rule for target.
+pose_estimation_3d3d/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pose_estimation_3d3d.dir/build.make CMakeFiles/pose_estimation_3d3d.dir/build
+.PHONY : pose_estimation_3d3d/fast
+
 orb_1to2.o: orb_1to2.cpp.o
 .PHONY : orb_1to2.o
 
@@ -277,6 +290,30 @@ pose_estimation_3d2d.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pose_estimation_3d2d.dir/build.make CMakeFiles/pose_estimation_3d2d.dir/pose_estimation_3d2d.cpp.s
 .PHONY : pose_estimation_3d2d.cpp.s
 
+pose_estimation_3d3d.o: pose_estimation_3d3d.cpp.o
+.PHONY : pose_estimation_3d3d.o
+
+# target to build an object file
+pose_estimation_3d3d.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pose_estimation_3d3d.dir/build.make CMakeFiles/pose_estimation_3d3d.dir/pose_estimation_3d3d.cpp.o
+.PHONY : pose_estimation_3d3d.cpp.o
+
+pose_estimation_3d3d.i: pose_estimation_3d3d.cpp.i
+.PHONY : pose_estimation_3d3d.i
+
+# target to preprocess a source file
+pose_estimation_3d3d.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pose_estimation_3d3d.dir/build.make CMakeFiles/pose_estimation_3d3d.dir/pose_estimation_3d3d.cpp.i
+.PHONY : pose_estimation_3d3d.cpp.i
+
+pose_estimation_3d3d.s: pose_estimation_3d3d.cpp.s
+.PHONY : pose_estimation_3d3d.s
+
+# target to generate assembly for a file
+pose_estimation_3d3d.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pose_estimation_3d3d.dir/build.make CMakeFiles/pose_estimation_3d3d.dir/pose_estimation_3d3d.cpp.s
+.PHONY : pose_estimation_3d3d.cpp.s
+
 triangulation.o: triangulation.cpp.o
 .PHONY : triangulation.o
 
@@ -313,6 +350,7 @@ help:
 	@echo "... orb_scratch"
 	@echo "... pose_estimation_2d2d"
 	@echo "... pose_estimation_3d2d"
+	@echo "... pose_estimation_3d3d"
 	@echo "... triangulation"
 	@echo "... orb_1to2.o"
 	@echo "... orb_1to2.i"
@@ -326,6 +364,9 @@ help:
 	@echo "... pose_estimation_3d2d.o"
 	@echo "... pose_estimation_3d2d.i"
 	@echo "... pose_estimation_3d2d.s"
+	@echo "... pose_estimation_3d3d.o"
+	@echo "... pose_estimation_3d3d.i"
+	@echo "... pose_estimation_3d3d.s"
 	@echo "... triangulation.o"
 	@echo "... triangulation.i"
 	@echo "... triangulation.s"
