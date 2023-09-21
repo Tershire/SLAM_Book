@@ -2,7 +2,12 @@
 # data
 # the tum dataset directory, change it to yours! 
 # dataset_dir: /mnt/1A9286BD92869CBF/Dataset/Kitti/dataset/sequences/05
-dataset_dir: /home/tershire/Documents/SLAM_dataset/KITTI/00
+# dataset_dir: /home/tershire/Documents/SLAM_dataset/KITTI/00
+# dataset_dir: /home/tershire/Documents/SLAM_dataset/KissFly/ovoide_1
+# dataset_dir: /media/tershire/Samsung_T3/SLAM/dataset/KITTI/test00
+dataset_dir: /media/tershire/Samsung_T3/SLAM/dataset/KITTI/data_odometry_gray/dataset/sequences/00
+
+
 
 # camera intrinsics
 camera.fx: 517.3

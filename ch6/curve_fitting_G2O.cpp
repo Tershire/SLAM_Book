@@ -38,6 +38,9 @@ public:
     // plus operator
     virtual void oplusImpl(const double* update) override
     {
+        //
+        std::cout << "update: " << update << std::endl; 
+
         _estimate += Eigen::Vector3d(update);
     }
 

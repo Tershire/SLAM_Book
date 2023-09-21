@@ -51,6 +51,11 @@ void Backend::BackendLoop()
 void Backend::Optimize(Map::KeyframesType &keyframes,
                         Map::LandmarksType &landmarks)
 {
+    //
+    // std::cout << "Backend::Optimize ==========================" << std::endl;
+    // std::cout << "keyframes.size(): " << keyframes.size() << std::endl;
+    // std::cout << "landmarks.size(): " << landmarks.size() << std::endl;
+
     // setup g2o
     typedef g2o::BlockSolver_6_3 BlockSolverType;
     typedef g2o::LinearSolverCSparse<BlockSolverType::PoseMatrixType>

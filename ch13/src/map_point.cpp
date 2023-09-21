@@ -22,6 +22,11 @@ MapPoint::Ptr MapPoint::CreateNewMappoint()
 
 void MapPoint::RemoveObservation(std::shared_ptr<Feature> feat)
 {
+    // std::cout << "remove_observation ==========================" << std::endl;
+    // std::cout << "observed_times_: " << observed_times_ << std::endl;
+    // std::cout << "is feature null: " << (feat == nullptr) << std::endl;
+    // std::cout << "observations_.size(): " << observations_.size() << std::endl;
+    
     std::unique_lock<std::mutex> lck(data_mutex_);
     for (auto iter = observations_.begin(); iter != observations_.end();
          iter++)
