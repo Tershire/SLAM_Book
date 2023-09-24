@@ -12,3 +12,4 @@ include_directories(${OpenCV_INCLUDE_DIRS})
 
 add_subdirectory(image_basics)
 add_subdirectory(stereo)
+add_subdirectory(rgbd)
