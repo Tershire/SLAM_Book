@@ -1,3 +1,0 @@
-/home/tershire/SLAM_book/ch3/practice_eigen/build/CMakeFiles/eigen_basics.dir
-/home/tershire/SLAM_book/ch3/practice_eigen/build/CMakeFiles/edit_cache.dir
-/home/tershire/SLAM_book/ch3/practice_eigen/build/CMakeFiles/rebuild_cache.dir

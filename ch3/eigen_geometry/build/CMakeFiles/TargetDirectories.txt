@@ -1,3 +1,0 @@
-/home/tershire/SLAM_book/ch3/eigen_geometry/build/CMakeFiles/eigen_geometry.dir
-/home/tershire/SLAM_book/ch3/eigen_geometry/build/CMakeFiles/edit_cache.dir
-/home/tershire/SLAM_book/ch3/eigen_geometry/build/CMakeFiles/rebuild_cache.dir

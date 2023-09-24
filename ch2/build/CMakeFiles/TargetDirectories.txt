@@ -1,6 +1,0 @@
-/home/tershire/Documents/SLAM_book/ch2/build/CMakeFiles/hello_SLAM.dir
-/home/tershire/Documents/SLAM_book/ch2/build/CMakeFiles/hello_SLAM_using_lib.dir
-/home/tershire/Documents/SLAM_book/ch2/build/CMakeFiles/hello_static.dir
-/home/tershire/Documents/SLAM_book/ch2/build/CMakeFiles/hello_shared.dir
-/home/tershire/Documents/SLAM_book/ch2/build/CMakeFiles/edit_cache.dir
-/home/tershire/Documents/SLAM_book/ch2/build/CMakeFiles/rebuild_cache.dir
