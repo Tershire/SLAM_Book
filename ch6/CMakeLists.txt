@@ -1,26 +1,42 @@
-cmake_minimum_required(VERSION 3.22)
-project(ch6)
+cmake_minimum_required(VERSION 3.2)
+project(VO_1)
 
-set(CMAKE_BUILD_TYPE Release)
-set(CMAKE_CXX_FLAGS "-std=c++17 -Wall")
+set(CMAKE_BUILD_TYPE "Release")
+add_definitions("-DENABLE_SSE")
+# set(CMAKE_CXX_FLAGS "-std=c++11 -O2 ${SSE_FLAGS} -msse4")
 
+# C++17 needed for this version of g2o used 
+set(CMAKE_CXX_FLAGS "-std=c++17 -O2 ${SSE_FLAGS} -msse4")
 list(APPEND CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR}/cmake)
 
-# OpenCV
-find_package(OpenCV REQUIRED)
-include_directories(${OpenCV_INCLUDE_DIRS})
-
-# Ceres
-# find_package(Ceres REQUIRED)
-# include_directories(${CERES_INCLUDE_DIRS})
-
-# g2o
+find_package(OpenCV 4 REQUIRED)
 find_package(G2O REQUIRED)
-include_directories(${G2O_INCLUDE_DIRS})
+find_package(Sophus REQUIRED)
 
-# Eigen
-include_directories("/usr/include/eigen3")
+include_directories(
+        ${OpenCV_INCLUDE_DIRS}
+        ${G2O_INCLUDE_DIRS}
+        ${Sophus_INCLUDE_DIRS}
+        "/usr/include/eigen3/"
+)
 
-#
-add_executable(curve_fitting_G2O curve_fitting_G2O.cpp)
-target_link_libraries(curve_fitting_G2O ${OpenCV_LIBS} ${G2O_CORE_LIBRARY} ${G2O_STUFF_LIBRARY})
+# needed. otherwise fmt error (ex. /usr/include/fmt/ostream.h:72:23: 
+#                              error: ‘formatbuf’ was not declared in this scope; 
+#                              did you mean ‘format_buf’?)
+add_definitions("-D SOPHUS_USE_BASIC_LOGGING")
+
+add_executable(orb_1to2 orb_1to2.cpp)
+add_executable(orb_scratch orb_scratch.cpp)
+add_executable(pose_estimation_2d2d pose_estimation_2d2d.cpp)
+add_executable(triangulation triangulation.cpp)
+add_executable(pose_estimation_3d2d pose_estimation_3d2d.cpp)
+add_executable(pose_estimation_3d3d pose_estimation_3d3d.cpp)
+
+target_link_libraries(orb_1to2 ${OpenCV_LIBS})
+target_link_libraries(orb_scratch ${OpenCV_LIBS})
+target_link_libraries(pose_estimation_2d2d ${OpenCV_LIBS})
+target_link_libraries(triangulation ${OpenCV_LIBS})
+target_link_libraries(pose_estimation_3d2d ${OpenCV_LIBS} 
+                                           g2o_core g2o_stuff)
+target_link_libraries(pose_estimation_3d3d ${OpenCV_LIBS} 
+                                           g2o_core g2o_stuff)
